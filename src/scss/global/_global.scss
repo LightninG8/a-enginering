@@ -16,7 +16,7 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-  text-size-adjust: none !important;
+  text-size-adjust: auto !important;
 }
 
 .container {
