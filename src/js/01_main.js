@@ -15,7 +15,7 @@ $(document).ready(() => {
   }
 
   $(window).on("resize", autoscale);
-  $(window).on("load", autoscale);
+  setTimeout(autoscale, 0);
 });
 
 // Хедер
