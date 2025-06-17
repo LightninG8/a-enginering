@@ -36,7 +36,7 @@
     &__text {
       max-width: 160px;
       font-weight: 400;
-      font-size: 1rem;
+      font-size: 10px;
       line-height: 100%;
       letter-spacing: 0.15em;
       text-transform: uppercase;
@@ -85,7 +85,7 @@
     }
     &__title {
       font-weight: 400;
-      font-size: 1rem;
+      font-size: 10px;
       line-height: 100%;
       letter-spacing: 0.05em;
       text-transform: uppercase;
@@ -94,17 +94,17 @@
 
     &__link {
       font-weight: 600;
-      font-size: 2.4rem;
+      font-size: 24px;
       line-height: 100%;
       text-decoration: none;
       color: var(--a-main-text-color);
 
       @media screen and (max-width: 640px) {
-        font-size: 1.8rem;
+        font-size: 18px;
       }
 
       @media screen and (max-width: 320px) {
-        font-size: 2rem;
+        font-size: 20px;
       }
     }
   }
@@ -117,7 +117,7 @@
     @media screen and (max-width: 640px) {
       position: absolute;
       top: 65px;
-      left: 285px;
+      left: 290px;
     }
 
     @media screen and (max-width: 320px) {
@@ -160,13 +160,13 @@
     position: relative;
     color: var(--a-main-text-color);
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
     text-decoration: none;
 
     @media screen and (max-width: 640px) {
-      font-size: 1.2rem;
+      font-size: 12px;
     }
 
     &_new::before {
@@ -206,7 +206,7 @@
     grid-template-columns: auto auto;
     align-items: center;
     padding: 26px 0;
-    font-size: 1.2rem;
+    font-size: 12px;
 
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -217,7 +217,7 @@
   }
 
   &__copy {
-    font-size: 1rem;
+    font-size: 10px;
     opacity: 0.5;
 
     @media screen and (max-width: 640px) {
